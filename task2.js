@@ -5,3 +5,15 @@
 //         
 // Запустіть виконане завдання за допомогою Live Server 
 // Перевірте виконання за допомогою команди node tests/task2.test.js
+document.getElementById('button1').addEventListener('click', function() {
+    document.body.style.backgroundColor = 'blue';
+});
+document.getElementById('button2').addEventListener('dblclick', function() {
+    document.body.style.backgroundColor = 'pink';
+});
+document.getElementById('button3').addEventListener('mouseover', function() {
+    document.body.style.backgroundColor = 'brown';
+});
+document.getElementById('button3').addEventListener('mouseout', function() {
+    document.body.style.backgroundColor = '';
+});
